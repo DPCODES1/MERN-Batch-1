@@ -1,0 +1,53 @@
+form {
+   margin: 200px auto;
+   max-width: 500px;
+   text-align: center;
+   background-color: blueviolet;
+   padding: 30px;
+   font-family: sans-serif;
+   border-radius: 10px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.528);
+   color: white;
+}
+
+input,select,label,textarea {
+    text-align: center;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    color: blue;
+    font-family: inherit;
+
+}
+
+input:focus {
+    outline: 2px solid rgb(255, 153, 0);
+}
+
+button {
+    background-color: rgb(238, 238, 238);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+#search {
+    width: 20%;
+    transition: width 0.2s ease-in-out;
+}
+
+#search:focus {
+    width: 90%;
+}
+

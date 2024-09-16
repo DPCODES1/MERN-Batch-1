@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <form>
+    <label for="name">Your Name</label>
+      <input id="name" type="text" placeholder="Give Your name" />
+      <label for="name">Your Email</label>
+      <input id="name" type="email" required placeholder="Give Your Email" />
+      <label for="name">Your DOB</label>
+      <input id="name" type="date" required placeholder="Give Your DOB" />
+      <label for="name">Your Age</label>
+      <input
+        id="name"
+        type="number"
+        max="90"
+        min="0"
+        required
+        placeholder="Give Your Age"
+      />
+      <label for="color">Choose Your Favourite Color</label>
+      <select id="color" name="col">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+      </select>
+      <!-- <div>
+        <label for="1">Message</label>
+        <input name="val" value="message" id="1" type="checkbox"/>
+      </div>
+      <div>
+        <label for="2">Call</label>
+        <input name="val" value="call" id="2" type="checkbox"/>
+      </div> -->
+      <!-- <div>
+        <label for="1">Message</label>
+        <input name="val" value="message" id="1" type="radio"/>
+      </div>
+      <div>
+        <label for="2">Call</label>
+        <input name="val" value="call" id="2" type="radio"/>
+      </div> -->
+      <label for="message">Enter Your Message</label>
+      <textarea rows="20" name="text" id="message"></textarea>
+     <div>
+      <button>Submit</button>
+     </div>
+    </form>
+  </body>
+</html>
